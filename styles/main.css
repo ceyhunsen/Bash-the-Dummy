@@ -1,0 +1,52 @@
+body {
+	font-family: Roboto;
+	background: black;
+}
+
+.terminal {
+	background: black;
+	width: 100%;
+	border: 1px solid lime;
+	margin-top: 10px;
+	font-family: Roboto;
+}
+
+.userEnteredText {
+	color: lime;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+#terminalResults {
+	width: 100%;
+	height: 300px;
+	overflow-y: auto;
+	resize: none;
+	border: none;
+	font-size: 14px;
+	line-height: 28px;
+	display: block;
+	color: lime;
+}
+
+#terminalResults a {
+	color: black;
+	text-decoration: none;
+}
+
+#terminalResults a: hover {
+	text-decoration: underline;
+}
+
+#terminalInput {
+	background: black;
+	display: block;
+	border: none;
+	width: 100%;
+	color: lime;
+	padding: 0;
+	font-size: 14px;
+	outline: none;
+	font-family: Roboto;
+}
