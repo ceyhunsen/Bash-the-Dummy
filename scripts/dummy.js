@@ -118,43 +118,46 @@ function dummy(command)
 			return;
 		}
 		case 16: {
-			image.src = "/images/dummy_.png";
-			text.innerText = "";
+			image.src = "/images/dummy_laughing.png";
+			text.innerText = "HAH! You think you can escape from me?!";
 			return;
 		}
 		case 17: {
-			image.src = "/images/dummy_.png";
-			text.innerText = "";
+			image.src = "/images/dummy_not_happy.png";
+			text.innerText = "Stop messing around!";
 			return;
 		}
 		case 18: {
-			image.src = "/images/dummy_.png";
-			text.innerText = "";
+			image.src = "/images/dummy_not_happy.png";
+			text.innerText = "These things are not for you!";
 			return;
 		}
 		case 19: {
-			image.src = "/images/dummy_.png";
-			text.innerText = "";
+			image.src = "/images/dummy_crying.png";
+			text.innerText = "Don't read my diaries, please!";
 			return;
 		}
 		case 20: {
-			image.src = "/images/dummy_.png";
-			text.innerText = "";
+			image.src = "/images/dummy_confused.png";
+			text.innerText = "Wait, that directory was hidden! How did you " +
+			"get in?";
 			return;
 		}
 		case 21: {
-			image.src = "/images/dummy_.png";
-			text.innerText = "";
+			image.src = "/images/dummy_neutral.png";
+			text.innerText = "Yeah! Stay right there and do not go anywhere " +
+			"else!";
 			return;
 		}
 		case 22: {
-			image.src = "/images/dummy_.png";
-			text.innerText = "";
+			image.src = "/images/dummy_laughing.png";
+			text.innerText = "HAH! You think you are that smart? Think again.";
 			return;
 		}
 		case 23: {
-			image.src = "/images/dummy_.png";
-			text.innerText = "";
+			image.src = "/images/dummy_confused.png";
+			text.innerText = "What? This is bash for god's sake! And it's " +
+			"a highly modified version made by myself, The Great Dummy!";
 			return;
 		}
 	}
