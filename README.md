@@ -1,18 +1,18 @@
 # Bash the Dummy!
 
-This is a basic javascript game for the BLM0226 Web Tabanlı Programlama class.
-
-## Story
-
-Dummy is a very lonely and great friend. So he made sure that if someone logs into his computer, (s)he would never be able to get out. So, are you going to stay with him or try to break out?  
-
-Dummy is heavily inspired from the [Mad Dummy from Undertale](https://undertale.fandom.com/wiki/Mad_Dummy).
+This project is a very basic javascript game developed for the BTU BLM0226 Web Tabanlı Programlama class.
 
 ![screenshot](images/ss0.png)
 
+## Story
+
+Dummy is very lonely and a great friend. So he made sure that if someone logs into his computer, (s)he would never be able to get out. So, are you going to stay with him or try to break out with your `bash` skills?  
+
+Dummy is heavily inspired from the [Mad Dummy from Undertale](https://undertale.fandom.com/wiki/Mad_Dummy).
+
 ## How to play?
 
-There is a freely hosted server that you can directly play -> [Bash the Dummy!](http://bashthedummy.coolpage.biz/)  
+There is a freely hosted web server that you can directly play -> [Bash the Dummy!](http://bashthedummy.coolpage.biz/)  
 
 But if you want to play it locally:
 
