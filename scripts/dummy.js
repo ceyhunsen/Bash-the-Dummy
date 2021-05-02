@@ -33,10 +33,129 @@ function dummy(command)
 			image.src = "/images/dummy_crying.png";
 			text.innerText = "Nooo! Why do you need help? We are gonna have fun here. " +
 			"You don't need help or anyone other than me!";
-			break;
+			return;
 		}
 		case 1: {
-			image.src = "";
+			image.src = "/images/dummy_neutral.png";
+			text.innerText = "What a nice day, huh?";
+			return;
+		}
+		case 2: {
+			image.src = "/images/dummy_not_happy.png";
+			text.innerText = "This is outrageous! Stop it right now!";
+			return;
+		}
+		case 3: {
+			image.src = "/images/dummy_confused.png";
+			text.innerText = "What are you going to do with that information?";
+			return;
+		}
+		case 4: {
+			image.src = "/images/dummy_winking.png";
+			text.innerText = "Someone is learning bash I think.";
+			return;
+		}
+		case 5: {
+			image.src = "/images/dummy_laughing.png";
+			text.innerText = "Don't go so fast. You can't modify my computer!";
+			return;
+		}
+		case 6: {
+			image.src = "/images/dummy_not_happy.png";
+			text.innerText = "Do not even think reading my files.";
+			return;
+		}
+		case 7: {
+			image.src = "/images/dummy_crying.png";
+			text.innerText = "Hey, please stop!";
+			return;
+		}
+		case 8: {
+			image.src = "/images/dummy_not_happy.png";
+			text.innerText = "Wait! Do not read it!";
+			return;
+		}
+		case 9: {
+			image.src = "/images/dummy_crying.png";
+			text.innerText = "Stop reading my diary!";
+			return;
+		}
+		case 10: {
+			image.src = "/images/dummy_not_happy.png";
+			text.innerText = "You are the worst person I have ever met!";
+			return;
+		}
+		case 11: {
+			image.src = "/images/dummy_happy.png";
+			text.innerText = "Nobody will be able to open my locker. " +
+			"Wait a minute! You wouldn't open it too, right?";
+			return;
+		}
+		case 12: {
+			image.src = "/images/dummy_happy.png";
+			text.innerText = "It's for my bank account.";
+			return;
+		}
+		case 13: {
+			image.src = "/images/dummy_happy.png";
+			text.innerText = "I love every friend of mine! " +
+			"And I have so many friends. " +
+			"Let me count: 1, ... I guess I only have one friend. " +
+			"And that is you! We are best friends, right? Right?";
+			return;
+		}
+		case 14: {
+			image.src = "/images/dummy_chilling.png";
+			text.innerText = "I am very good at singing too. Let me sing: " +
+			"Woaahh woooaaaahh wooooooooaaaaahhh WOOOOOOAAAAAAHHHHH! " +
+			"How was it?";
+			return;
+		}
+		case 15: {
+			image.src = "/images/dummy_neutral.png";
+			text.innerText = "Welp. I guess you are a really good hacker. " +
+			"Welldone and goodbye friend!";
+			return;
+		}
+		case 16: {
+			image.src = "/images/dummy_.png";
+			text.innerText = "";
+			return;
+		}
+		case 17: {
+			image.src = "/images/dummy_.png";
+			text.innerText = "";
+			return;
+		}
+		case 18: {
+			image.src = "/images/dummy_.png";
+			text.innerText = "";
+			return;
+		}
+		case 19: {
+			image.src = "/images/dummy_.png";
+			text.innerText = "";
+			return;
+		}
+		case 20: {
+			image.src = "/images/dummy_.png";
+			text.innerText = "";
+			return;
+		}
+		case 21: {
+			image.src = "/images/dummy_.png";
+			text.innerText = "";
+			return;
+		}
+		case 22: {
+			image.src = "/images/dummy_.png";
+			text.innerText = "";
+			return;
+		}
+		case 23: {
+			image.src = "/images/dummy_.png";
+			text.innerText = "";
+			return;
 		}
 	}
 }

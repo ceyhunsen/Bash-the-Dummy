@@ -35,8 +35,8 @@ function parse(s)
 				return "/bin";
 			}
 			for (var i = 1; i < s.length; i++) {
-				dummy(5);
 				if (s[i] == ">" || s[i] == ">>") {
+					dummy(5);
 					return "bash: " + s[i + 1] + ": Permission denied";
 				} else {
 					ans += s[i] + " ";
@@ -113,6 +113,10 @@ function parse(s)
 							return "cat: " + s[1] + ": No such file or directory";
 						}
 					}
+				}
+				default: {
+					dummy(6);
+					return "cat: " + s[1] + ": No such file or directory"
 				}
 			}
 		}
