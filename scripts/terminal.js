@@ -52,9 +52,10 @@ document.addEventListener("DOMContentLoaded", function()
 		textInputValue = document.getElementById("terminalInput").value.trim();
 		if (textInputValue != "") {
 			clearInput();
-			addTextToResults("<p class='userEnteredText'>[dummy@bash] $ " +
-			textInputValue + "</p>");
-			addTextToResults(parse(textInputValue));
+			var result = parse(textInputValue);
+			addTextToResults("<p class='userEnteredText'>[dummy@bash " +
+			window.path + " ] $ " + textInputValue + "</p>");
+			addTextToResults(result);
 		}
 	};
 });

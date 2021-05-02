@@ -11,18 +11,11 @@ function parse(s)
 		case "date": {
 			return Date();
 		}
-		case "exit": {
-			return "Hah! You think you can escape that easily?";
-		}
 		case "keygen": {
 			return "donotusethiskeypls";
 		}
 		case "pwd": {
 			return window.path;
-		}
-		case "sudo": {
-			return "bash: sudo: You can't be root user if you are not " +
-			       "the Magnificent Dummy himself!";
 		}
 		case "echo": {
 			if (s[1] == "$PATH") {
@@ -64,15 +57,16 @@ function parse(s)
 				case "xxxSecretxx":
 				case "..":
 				case ".": {
-					return "You can't use relative file paths. " +
-					       "Because I want you to suffer! HAHAHA!";
-					// Actually I am lazy to implement that
+					return "Relative file paths are disabled.";
+					// I am too lazy to implement that
 				}
 				default: {
 					return "bash: cd: " + s[1] + ": No such file or directory";
 				}
 			}
 		}
+		case "exit":
+		case "sudo":
 		case "mkdir":
 		case "touch": {
 			return "bash: " + s[0] + ": Permission denied";
