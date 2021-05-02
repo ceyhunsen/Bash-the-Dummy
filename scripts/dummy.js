@@ -117,7 +117,7 @@ function dummy(command)
 			document.getElementById('music').pause();
 			image.src = "/images/dummy_neutral.png";
 			text.innerText = "Welp. I guess you are a really good hacker. " +
-			"Welldone and goodbye friend!";
+			"Well done and goodbye friend!";
 			return;
 		}
 		case 16: {
