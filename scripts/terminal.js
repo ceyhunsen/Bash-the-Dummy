@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", function()
 {
 	document.getElementsByTagName("form")[0].onsubmit = function(evt)
 	{
+		document.getElementById("music").play();
 		evt.preventDefault(); // Preventing the form from submitting
 		printOutput(); // Use parser to analyze input and print result
 		window.scrollTo(0,150);

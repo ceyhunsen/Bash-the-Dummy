@@ -32,7 +32,7 @@ function dummy(command)
 		case 0: {
 			image.src = "/images/dummy_crying.png";
 			text.innerText = "Nooo! Why do you need help? We are gonna have fun here. " +
-			"You don't need help or anyone other than me!";
+			"You don't need any help or anyone other than me!";
 			return;
 		}
 		case 1: {
@@ -105,6 +105,8 @@ function dummy(command)
 			return;
 		}
 		case 14: {
+			document.getElementById("music").pause();
+			document.getElementById("dummy_singing").play();
 			image.src = "/images/dummy_chilling.png";
 			text.innerText = "I am very good at singing too. Let me sing: " +
 			"Woaahh woooaaaahh wooooooooaaaaahhh WOOOOOOAAAAAAHHHHH! " +
@@ -112,6 +114,7 @@ function dummy(command)
 			return;
 		}
 		case 15: {
+			document.getElementById('music').pause();
 			image.src = "/images/dummy_neutral.png";
 			text.innerText = "Welp. I guess you are a really good hacker. " +
 			"Welldone and goodbye friend!";
