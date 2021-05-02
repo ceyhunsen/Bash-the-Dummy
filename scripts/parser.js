@@ -55,8 +55,9 @@ function parse(s)
 						case "exitpls": {
 							dummy(8);
 							return "#!/bin/bash<br />" +
-								   "if [ $1 = 'donotusethiskeypls' ] then" +
-								   "<br />exit<br />fi";
+							       "if [ $1 = $(./keygen) ]<br />" +
+							       "then<br />" +
+							       "exit<br />fi";
 						}
 						default: {
 							dummy(6);
