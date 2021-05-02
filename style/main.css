@@ -50,3 +50,23 @@ body {
 	outline: none;
 	font-family: Roboto;
 }
+
+#dummy_image {
+	width:200px;
+	height:300px;
+	padding-left: 10px;
+	padding-top: 10px;
+	left: 10px;
+}
+
+#dummy_speech {
+	color: white;
+	font-family: "Roboto Mono";
+	font-size: 40px;
+	padding-right: 10px;
+	right: 10px;
+}
+
+#extra {
+	font-family: "Roboto Mono";
+}

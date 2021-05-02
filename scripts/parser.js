@@ -6,6 +6,7 @@ function parse(s)
 	// Available commands
 	switch (s[0]) {
 		case "help": {
+			dummy(0);
 			return "You called for help... But nobody came.";
 		}
 		case "date": {
