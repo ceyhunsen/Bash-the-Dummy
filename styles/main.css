@@ -20,12 +20,12 @@ body {
 
 #terminalResults {
 	width: 100%;
-	height: 300px;
+	height: 400px;
 	overflow-y: auto;
 	resize: none;
 	border: none;
-	font-size: 14px;
-	line-height: 28px;
+	font-size: 20px;
+	line-height: 10px;
 	display: block;
 	color: lime;
 }
@@ -46,7 +46,7 @@ body {
 	width: 100%;
 	color: lime;
 	padding: 0;
-	font-size: 14px;
+	font-size: 20px;
 	outline: none;
 	font-family: Roboto;
 }

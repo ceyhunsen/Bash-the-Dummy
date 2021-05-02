@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function()
 	document.getElementsByTagName("form")[0].onsubmit = function(evt)
 	{
 		evt.preventDefault(); // Preventing the form from submitting
-		checkWord(); // Do your magic and check the entered word/sentence
+		printOutput(); // Use parser to analyze input and print result
 		window.scrollTo(0,150);
 	}
 
@@ -19,14 +19,16 @@ document.addEventListener("DOMContentLoaded", function()
 	// Getting the text from the results div
 	var textResultsValue = document.getElementById("terminalResults").innerHTML;
 
+	window.path = "/";
+
 	// Clear text input
-	var clearInput = function()
+	function clearInput()
 	{
 		document.getElementById("terminalInput").value = "";
 	}
 
 	// Scroll to the bottom of the results div
-	var scrollToBottomOfResults = function()
+	function scrollToBottomOfResults()
 	{
 		var terminalResultsDiv = document.getElementById("terminalResults");
 		terminalResultsDiv.scrollTop = terminalResultsDiv.scrollHeight;
@@ -36,14 +38,15 @@ document.addEventListener("DOMContentLoaded", function()
 	scrollToBottomOfResults();
 
 	// Add text to the results div
-	var addTextToResults = function(textToAdd)
+	function addTextToResults(textToAdd)
 	{
-		document.getElementById("terminalResults").innerHTML += "<p>" + textToAdd + "</p>";
+		document.getElementById("terminalResults").innerHTML += "<p>"
+		+ textToAdd + "</p>";
 		scrollToBottomOfResults();
 	}
 
 	// Check input and print appropriate output
-	var checkWord = function()
+	function printOutput()
 	{
 		// Get the text from the text input to a variable
 		textInputValue = document.getElementById("terminalInput").value.trim();
