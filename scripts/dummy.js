@@ -118,6 +118,7 @@ function dummy(command)
 			image.src = "/images/dummy_neutral.png";
 			text.innerText = "Welp. I guess you really are a good hacker. " +
 			"Well done and goodbye friend!";
+			window.open("https://youtu.be/XMEXPkPmmq0", "_blank");
 			return;
 		}
 		case 16: {
