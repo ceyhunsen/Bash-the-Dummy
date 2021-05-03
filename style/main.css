@@ -1,6 +1,7 @@
 body {
 	font-family: Roboto;
 	background: black;
+	color: white;
 }
 
 .terminal {
@@ -69,4 +70,5 @@ body {
 
 #extra {
 	font-family: "Roboto Mono";
+	color: white;
 }

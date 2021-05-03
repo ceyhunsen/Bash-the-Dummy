@@ -12,7 +12,7 @@ Dummy is heavily inspired from the [Mad Dummy from Undertale](https://undertale.
 
 ## How to play?
 
-There is a freely hosted web server that you can directly play -> [Bash the Dummy!](http://bashthedummy.coolpage.biz/)  
+There is a freely hosted web server that you can directly play: [Bash the Dummy!](http://bashthedummy.coolpage.biz/)  
 
 But if you want to play it locally:
 
@@ -22,9 +22,9 @@ But if you want to play it locally:
 
 ## Resources
 
-* Terminal implementation -> heavily modified version of [webdevtrick terminal implementation](https://webdevtrick.com/javascript-terminal-emulator/)
-* 8bit art -> [make8bitart](https://make8bitart.com/)
-* Music -> [Groovepad](https://play.google.com/store/apps/details?id=com.easybrain.make.music&hl=en_US&gl=US)
+* Terminal: heavily modified version of [webdevtrick terminal implementation](https://webdevtrick.com/javascript-terminal-emulator/)
+* 8bit art: [make8bitart](https://make8bitart.com/)
+* Music: [Groovepad](https://play.google.com/store/apps/details?id=com.easybrain.make.music&hl=en_US&gl=US)
 
 ## License
 
