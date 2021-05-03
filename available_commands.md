@@ -18,3 +18,6 @@ Available scripts:
 
 * `exitpls` -> let me exit please!
 * `keygen` -> extremely secret key inside
+
+Available variables:
+* `PATH` -> `echo $PATH` to see what it is
