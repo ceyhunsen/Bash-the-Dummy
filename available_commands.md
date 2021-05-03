@@ -17,4 +17,4 @@ Available bash commands:
 Available scripts:
 
 * `exitpls` -> let me exit please!
-* `keygen` -> exteremely secret key inside
+* `keygen` -> extremely secret key inside
