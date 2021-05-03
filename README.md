@@ -1,6 +1,6 @@
 # Bash the Dummy!
 
-This project is a very basic javascript game developed for the BTU BLM0226 Web Tabanlı Programlama class.
+This project is a very basic javascript game that developed for the BTU BLM0226 Web Tabanlı Programlama class.
 
 ![screenshot](images/ss0.png)
 
