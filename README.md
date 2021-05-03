@@ -20,6 +20,12 @@ But if you want to play it locally:
 2. Open a http server in that location (if you have `python` installed, you can type: `python -m http.server`)
 3. And go to `localhost:[PORT]` at your browser
 
+## Known bugs, available commands and walkthrough
+
+Terminal is `bash` based but still some of the `bash`'s functions may not work.  
+Also if you don't know bash check [this](available_commands.md) for commands.  
+If you couldn't beat the game, you can check [walkthrough](walkthrough.md).
+
 ## Resources
 
 * Terminal: heavily modified version of [webdevtrick's terminal implementation](https://webdevtrick.com/javascript-terminal-emulator/)
