@@ -25,6 +25,8 @@ function dummy(command)
 	 * 21: cd /
 	 * 22: access denied
 	 * 23: wrong command
+	 * 24: uname
+	 * 25: file
 	 * */
 	var image = document.getElementById("dummy_image");
 	var text = document.getElementById("dummy_speech");
@@ -164,6 +166,22 @@ function dummy(command)
 			"version of bash. And it's made by myself, The Great Dummy! " +
 			"If you don't know how to use bash, that's a pity. We will be " +
 			"stuck here forever! HAHAHA!";
+			return;
+		}
+		case 24: {
+			image.src = "/images/dummy_neutral.png";
+			text.innerText = "Yeah, that's right! It's the RISC-V architecture.";
+			return;
+		}
+		case 25: {
+			image.src = "/images/dummy_not_happy.png";
+			text.innerText = "That file's type is: NONE OF YOUR GODDAMN BUSINESS!";
+			return;
+		}
+		default: {
+			image.src = "/images/dummy_neutral.png";
+			text.innerText = "I have no idea how you done that. That command " +
+			"is beyond my understanding.";
 			return;
 		}
 	}

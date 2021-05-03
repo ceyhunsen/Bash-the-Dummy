@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function()
 		if (textInputValue != "") {
 			clearInput();
 			var result = parse(textInputValue);
-			addTextToResults("<p class='userEnteredText'>[dummy@bash " +
+			addTextToResults("<p class='userEnteredText'>[dummy@greatdummyspc " +
 			window.path + " ] $ " + textInputValue + "</p>");
 			addTextToResults(result);
 		}

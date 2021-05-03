@@ -210,6 +210,32 @@ function parse(s)
 			dummy(22);
 			return "bash: " + s[0] + ": Permission denied";
 		}
+		case "uname": {
+			dummy(24);
+			return "Linux greatdummyspc 5.11.17 " + Date() + " RISC-V GNU/Linux";
+		}
+		case "file": {
+			dummy(25);
+			switch (s[1]) {
+				case "Diary1":
+				case "Diary2":
+				case "password":
+				case "secretpass":
+				case "my_favorite_song":
+				case "my_secret": {
+					return s[1] + ": ASCII text";
+				}
+				case "keygen":
+				case "exitpls": {
+					return s[1] +
+					": Bourne-Again shell script, ASCII text executable";
+				}
+				default: {
+					return s[1] +
+					": cannot open `" + s[1] + "' (No such file or directory)";
+				}
+			}
+		}
 	}
 	dummy(23);
 	return "bash: " + s[0] + ": command not found...";
