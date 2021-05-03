@@ -161,6 +161,8 @@ function parse(s)
 						return "bash: cd: " + s[1] + ": No such file or directory";
 					}
 				}
+				case "../bin":
+				case "../bin/":
 				case "/bin/":
 				case "/bin": {
 					dummy(18);
@@ -172,6 +174,8 @@ function parse(s)
 						return "bash: cd: " + s[1] + ": No such file or directory";
 					}
 				}
+				case "../Dummy":
+				case "../Dummy/":
 				case "/Dummy":
 				case "/Dummy/": {
 					dummy(19);
@@ -183,6 +187,8 @@ function parse(s)
 						return "bash: cd: " + s[1] + ": No such file or directory";
 					}
 				}
+				case "../xxxSecretxxx":
+				case "../xxxSecretxxx/":
 				case "/xxxSecretxxx":
 				case "/xxxSecretxxx/": {
 					dummy(20);
