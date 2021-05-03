@@ -52,7 +52,7 @@ function dummy(command)
 		}
 		case 4: {
 			image.src = "/images/dummy_winking.png";
-			text.innerText = "Someone is learning bash I think.";
+			text.innerText = "Someone is trying to learn bash, I think.";
 			return;
 		}
 		case 5: {
@@ -62,7 +62,7 @@ function dummy(command)
 		}
 		case 6: {
 			image.src = "/images/dummy_not_happy.png";
-			text.innerText = "Do not even think reading my files.";
+			text.innerText = "Do not even think about reading my files.";
 			return;
 		}
 		case 7: {
@@ -72,7 +72,7 @@ function dummy(command)
 		}
 		case 8: {
 			image.src = "/images/dummy_not_happy.png";
-			text.innerText = "Wait! Do not read it!";
+			text.innerText = "Wait! Do not read it! I'm begging you!";
 			return;
 		}
 		case 9: {
@@ -81,7 +81,7 @@ function dummy(command)
 			return;
 		}
 		case 10: {
-			image.src = "/images/dummy_not_happy.png";
+			image.src = "/images/dummy_crying.png";
 			text.innerText = "You are the worst person I have ever met!";
 			return;
 		}
@@ -109,14 +109,14 @@ function dummy(command)
 			document.getElementById("dummy_singing").play();
 			image.src = "/images/dummy_chilling.png";
 			text.innerText = "I am very good at singing too. Let me sing: " +
-			"Woaahh woooaaaahh wooooooooaaaaahhh WOOOOOOAAAAAAHHHHH! " +
+			"Woaahh woooaaaahh, wooooooooaaaaahhh, WOOOOOOAAAAAAHHHHH! " +
 			"How was it?";
 			return;
 		}
 		case 15: {
 			document.getElementById('music').pause();
 			image.src = "/images/dummy_neutral.png";
-			text.innerText = "Welp. I guess you are a really good hacker. " +
+			text.innerText = "Welp. I guess you really are a good hacker. " +
 			"Well done and goodbye friend!";
 			return;
 		}
@@ -149,7 +149,7 @@ function dummy(command)
 		case 21: {
 			image.src = "/images/dummy_neutral.png";
 			text.innerText = "Yeah! Stay right there and do not go anywhere " +
-			"else!";
+			"else.";
 			return;
 		}
 		case 22: {
@@ -159,8 +159,10 @@ function dummy(command)
 		}
 		case 23: {
 			image.src = "/images/dummy_confused.png";
-			text.innerText = "What? This is bash for god's sake! And it's " +
-			"a highly modified version made by myself, The Great Dummy!";
+			text.innerText = "What? God's sake, this is heavily modified " +
+			"version of bash. And it's made by myself, The Great Dummy! " +
+			"If you don't know how to use bash, that's a pity. We will be " +
+			"stuck here forever! HAHAHA!";
 			return;
 		}
 	}
