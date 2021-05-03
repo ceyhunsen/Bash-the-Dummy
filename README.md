@@ -8,7 +8,7 @@ This project is a very basic javascript game that developed for the BTU BLM0226 
 
 Dummy is very lonely and a great friend. So he made sure that if someone logs into his computer, (s)he would never be able to get out. So, are you going to stay with him or try to break out with your `bash` skills?  
 
-Dummy is heavily inspired from the [Mad Dummy from Undertale](https://undertale.fandom.com/wiki/Mad_Dummy). But he is more friendly now and still a bit mad too!
+Dummy is heavily inspired from the [Mad Dummy from Undertale](https://undertale.fandom.com/wiki/Mad_Dummy). But now, he is friendly and still a bit mad too!
 
 ## How to play?
 
