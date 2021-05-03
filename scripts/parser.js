@@ -132,7 +132,10 @@ function parse(s)
 		case "exitpls": {
 			if (s[1] == "donotusethiskeypls") {
 				dummy(15);
-				return "";
+				return "Congratulations, you won the game! " +
+				"If you want to check source code: " +
+				"https://github.com/ceyhunsen/Bash-the-Dummy<br />" +
+				"Ceyhun Şen, 2021";
 			} else {
 				dummy(16);
 			}
