@@ -165,8 +165,9 @@ function dummy(command)
 			text.innerText = "What? God's sake, this is heavily modified " +
 			"version of bash. And it's made by myself, The Great Dummy! " +
 			"If you don't know how to use bash, that's a pity. We will be " +
-			"stuck here forever! HAHAHA! ---Hey! Ceyhun here. Do not give up " +
-			"now! Check Github page below for help. Stay determined.---";
+			"stuck here forever! HAHAHA! ---Hey! Ceyhun here, creator of " +
+			"this game. Do not give up now! Check Github page below for " +
+			" help. Stay determined.---";
 			return;
 		}
 		case 24: {
