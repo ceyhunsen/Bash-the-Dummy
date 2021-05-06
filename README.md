@@ -1,6 +1,6 @@
 # Bash the Dummy!
 
-This project is a very basic javascript game that developed for the BTU BLM0226 Web Tabanlı Programlama class.
+This project is a very basic, text based javascript game that developed for the `BTU BLM0226 Web Tabanlı Programlama` class.
 
 ![screenshot](images/ss0.png)
 
@@ -17,19 +17,30 @@ There is a freely hosted web server that you can directly play: [Bash the Dummy!
 But if you want to play it locally:
 
 1. Download this repository
-2. Open a http server in that location (if you have `python` installed, you can type: `python -m http.server`)
+2. Open a http server in downloaded repository (if you have `python` installed, you can type: `python -m http.server`)
 3. And go to `localhost:[PORT]` at your browser
 
 ## Known bugs, available commands and walkthrough
 
-Terminal is `bash` based but still some of the `bash`'s functions may not work.  
-Also if you don't know bash check [this](available_commands.md) for commands.  
+#### Bugs:
+
+* Terminal is `bash` based but still some of the `bash`'s functions may not work.
+* File paths are not real. And there are no real files either. If you invoke a command, it checks for some conditions and does it's magic. So there are obvious bugs. And please, don't go hard on commands.
+* There are no flag options for any program.
+* At first start, there is no prompt like `[dummy@greatdummyspc / ] $`. You need to enter your fist command to see that.
+
+#### Available commands:
+
+Also if you don't know bash, check [this](available_commands.md) for available commands.
+
+#### Walkthrough:
+
 If you couldn't beat the game, you can check [walkthrough](walkthrough.md).
 
 ## Resources
 
 * Terminal: heavily modified version of [webdevtrick's terminal implementation](https://webdevtrick.com/javascript-terminal-emulator/)
-* 8bit art: [make8bitart](https://make8bitart.com/)
+* 8 bit images: [make8bitart](https://make8bitart.com/)
 * Music: [Groovepad](https://play.google.com/store/apps/details?id=com.easybrain.make.music&hl=en_US&gl=US)
 
 ## License

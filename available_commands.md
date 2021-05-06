@@ -11,12 +11,12 @@ Available bash commands:
 * `uname` -> display system info
 * `exit` -> exit from current session
 * `sudo` -> do as root user
-* `mkdir` -> create new folder
-* `touch` -> create new file or update existing file's credits
+* `mkdir [NAME]` -> create new folder named `[NAME]`
+* `touch [FILE]` -> create new `[FILE]` or update `[FILE]`'s credits
 
 Available scripts:
 
-* `exitpls` -> let me exit please!
+* `exitpls` -> let me exit, please!
 * `keygen` -> extremely secret key inside
 
 Available variables:
