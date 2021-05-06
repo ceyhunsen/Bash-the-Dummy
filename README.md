@@ -31,7 +31,7 @@ But if you want to play it locally:
 
 #### Available commands:
 
-Also if you don't know bash, check [this](available_commands.md) for available commands.
+If you don't know bash or just wanted to learn what commands are available, check [this](available_commands.md).
 
 #### Walkthrough:
 
