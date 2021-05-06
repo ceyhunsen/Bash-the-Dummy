@@ -22,10 +22,11 @@ But if you want to play it locally:
 
 ## Known bugs, available commands and walkthrough
 
-#### Bugs:
+#### Known bugs:
 
 * Terminal is `bash` based but still some of the `bash`'s functions may not work.
-* File paths are not real. And there are no real files either. If you invoke a command, it checks for some conditions and does it's magic. So there are obvious bugs. And please, don't go hard on commands.
+* File paths are not real. And there are no real files either. If you invoke a command, it checks for some conditions and does it's magic on imaginary files and paths.
+* Because file paths are not real, relative file paths may not work as expected.
 * There are no flag options for any program.
 * At first start, there is no prompt like `[dummy@greatdummyspc / ] $`. You need to enter your fist command to see that.
 
