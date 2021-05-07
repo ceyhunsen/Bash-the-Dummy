@@ -12,7 +12,7 @@ Dummy is heavily inspired from the [Mad Dummy](https://undertale.fandom.com/wiki
 
 ## How to play?
 
-There is a freely hosted web server that you can directly play: [Bash the Dummy!](http://bashthedummy.coolpage.biz/)  
+There is a freely hosted web server that you can directly play: [Bash the Dummy!](https://bashthedummy.coolpage.biz/)  
 
 But if you want to play it locally:
 
