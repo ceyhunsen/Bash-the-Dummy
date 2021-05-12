@@ -77,10 +77,10 @@ function parse(s)
 							dummy(10);
 							return "Well... If someone falls in to my " +
 							       "computer somehow, they are not going to " +
-							       "get out that easily. Because I modified " +
+							       "get out easily. Because I modified " +
 							       "my bash so that they can't escape. " +
 							       "HAHAHA! They have to find my special " +
-							       "script to get out. But they will never" +
+							       "script to get out. But they will never " +
 							       "find it and we will talk forever. HAHAHA!";
 						}
 						case "password": {
