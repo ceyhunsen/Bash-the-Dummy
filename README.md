@@ -1,6 +1,6 @@
 # Bash the Dummy!
 
-This project is a very basic, text based javascript game that developed for the `BTU BLM0226 Web Tabanlı Programlama` class.
+[Bash the Dummy!](https://bashthedummy.coolpage.biz/) is a very basic, text based javascript game that developed for the `BTU BLM0226 Web Tabanlı Programlama` class.
 
 ![screenshot](images/ss0.png)
 
