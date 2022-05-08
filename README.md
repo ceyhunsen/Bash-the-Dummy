@@ -1,6 +1,6 @@
 # Bash the Dummy!
 
-[Bash the Dummy!](https://bashthedummy.coolpage.biz/) is a very basic, text based javascript game that developed for the `BTU BLM0226 Web Tabanlı Programlama` class.
+[Bash the Dummy!](https://bashthedummy.coolpage.biz/) is a very basic, text based JavaScript game that developed for the `BTU BLM0226 Web Based Programming` class.
 
 ![screenshot](images/ss0.png)
 
@@ -17,8 +17,8 @@ There is a freely hosted web server that you can directly play: [Bash the Dummy!
 But if you want to play it locally:
 
 1. Download this repository
-2. Open a http server in downloaded repository (if you have `python` installed, you can type: `python -m http.server`)
-3. And go to `localhost:[PORT]` at your browser
+2. Open a `http` server in downloaded repository (if you have `python 3` installed, you can type: `python3 -m http.server`)
+3. And go to `http://localhost:[PORT]` at your browser
 
 ## Known bugs, available commands and walkthrough
 
